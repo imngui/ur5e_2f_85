@@ -1,0 +1,26 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: ur5e_2f_85_description
+    relative_path: urdf/ur5e_2f_85.urdf
+    xacro_args: name:=ur ur_type:=ur5e
+  srdf:
+    relative_path: config/ur5e_2f_85.srdf
+  package_settings:
+    author_name: Isaac Ngui
+    author_email: ingui2@illinois.edu
+    generated_timestamp: 1724187358
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
