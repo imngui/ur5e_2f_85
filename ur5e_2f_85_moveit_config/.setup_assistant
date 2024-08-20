@@ -8,7 +8,7 @@ moveit_setup_assistant_config:
   package_settings:
     author_name: Isaac Ngui
     author_email: ingui2@illinois.edu
-    generated_timestamp: 1724187358
+    generated_timestamp: 1724188689
   control_xacro:
     command:
       - position
